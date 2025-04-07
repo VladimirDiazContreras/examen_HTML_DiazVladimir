@@ -10,16 +10,63 @@
     <div class="pagina1">
         <div class="pagina1_cuadro1">
             <img class="pagina1_cuadro1_imgob" src="./img/Menu_Bar.png"/>
-            <pre class="pagina1_cuadro1_text1">Inicio</pre>
-            <pre class="pagina1_cuadro1_text2">¿Que es?</pre>
+            <pre class="pagina1_cuadro1_text1"><a href="./index.html">Inicio</a> </pre>
+            <pre class="pagina1_cuadro1_text2"><a href="./index2.html">¿Que es?</a> </pre>
             <pre class="pagina1_cuadro1_text3">Entrega</pre>
             <div class="pagina1_cuadro2" >
                 <pre class="pagina1_cuadro2_tex1">Consultar</pre>
             </div>
         </div>
-        <div class="pagina1_fondo">
-            <img src="./img/Fondo.png" >
-            <div class="pagina1_cuadro3"></div>
+            <div class="pagina1_fondo">
+                <div class="pagina1_fondo_1"><img src="./img/Fondo.png" ></div>
+             <div class="pagina1_cuadro3">
+                 <pre class="pagina1_cuadro3_tx1">  consulta el estado del 
+            ingreso
+         solidario</pre>
+          <pre class="pagina1_cuadro3_tx2">         Por favor ingresa tus datos personales para revisar el estado de entrea 
+                                         de tu ingreso.
+         </pre>
+          <div class="rellenar">
+               <!-- FORMULARIOS -->
+             <!-- Son los mecanismos utilizados para que el usuario final envíe información
+                  a través de unos campos 
+             visuales -->
+              <form name="formularioInscripcion" method="get" action=""
+             class="validado">
+                 <!-- ELEMENTO INPUT-->
+          
+             <label for="genero">tipo de documento :</label> <br>
+             <select name="sexo"  >
+            
+                 <option value="Bucaramanga">cedula de ciudadania</option>
+                 <option value="Giron">Giron</option>
+                    <option value="Floridablanca">Floridablanca</option>
+                 <option value="Piedecuesta">Piedecuesta</option>
+          
+               </select><br>
+               <label for="name"  >numero de documento:</label><br>
+                 <input type="number" name="username" placeholder="numero de documento" required minlength="0" maxlength="15" /> <br>
+                 <label for="name">primer nombre:</label><br>
+                <input type="text" name="lastname"  required minlength="0" maxlength="50" /> <br> 
+                 <label for="name">primer apellido:</label><br>
+                 <input type="text" name="lastname"  required minlength="0" maxlength="50" /> <br> 
+              <label for="name"  >fecha de expedicion del documento: </label> <br>
+              <input type="number" name="username" placeholder="mm/dd/yy" required minlength="0" maxlength="15" /> <br>
+                <label for="name"  >telefono movil:</label> <br>
+            <input type="email" name="correo" /> <br>
+       
+        
+
+            <input type="submit" value="consultar">
+            </form>
+
+
+
+        </div>
+                
+   
+
+            </div>
         </div>
         
 
